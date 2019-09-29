@@ -14,8 +14,11 @@ class ScienceMode extends Component {
         if(btnVal === '^'){
         this.props.changeMode(value*value)
         }
-        else if(btnVal=== 'sign'){
+        else if(btnVal=== 's'){
             this.props.changeMode(value*-1)
+        }
+        else if(btnVal === 'sqrt'){
+            this.props.changeMode(Math.sqrt(value))
         }
 
         
